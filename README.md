@@ -14,4 +14,3 @@ docker build -t ovpn-client .
 ```
 docker run -d --cap-add=NET_ADMIN --device /dev/net/tun -v ~/shared:/vpn ovpn-client --config /vpn/config.ovpn --auth-nocache
 ```
-Test
