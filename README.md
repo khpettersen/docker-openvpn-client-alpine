@@ -28,8 +28,8 @@ remote X.X.X.X 1194 udp
 .
 ```
 
-* Note that the up.sh and down.sh files are added automatically when the openvpn is installed on the Alpine system (by apk add openvpn). These are the only two files in the /etc/openvpn/ directory.
-* Note that on debian or ubuntu systems, a bash script called 'update-resolv-conf' is installed. This not applicabale for Alpine systems. In addition, 'update-resolv-conf' is a bash script which is not installed by default in Alpine.
+** Note that the up.sh and down.sh files are added automatically when the openvpn is installed on the Alpine system (by apk add openvpn). These are the only two files in the /etc/openvpn/ directory.
+*Note that on debian or ubuntu systems, a bash script called 'update-resolv-conf' is installed. This not applicabale for Alpine systems. In addition, 'update-resolv-conf' is a bash script which is not installed by default in Alpine.
 
 ## Run
 ```
